@@ -1,6 +1,6 @@
 
 
-// var instagramData = [];
+// var instagramData;
 
 console.log(instagramData);
 
@@ -22,6 +22,9 @@ function getInstagramData(){
 			console.log(data);
 
 			instagramData = data;
+			console.log(instagramData);
+
+
 			console.log(instagramData.data[1].images.low_resolution.url);
 			console.log(instagramData.data.length);
 
