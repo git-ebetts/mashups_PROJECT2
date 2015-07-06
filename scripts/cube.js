@@ -29,7 +29,7 @@ function initCube() {
 	info.style.top = '10px';
 	info.style.width = '100%';
 	info.style.textAlign = 'center';
-	info.innerHTML = '<h1>Spin the CuteCube!</h1>';
+	info.innerHTML = '<h1>Spin the Cute Cube!</h1>';
 	container.appendChild( info );
 
 	camera = new THREE.PerspectiveCamera( 70, window.innerWidth / window.innerHeight, 1, 1000 );
